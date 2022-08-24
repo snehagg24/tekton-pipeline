@@ -8,4 +8,4 @@ spec:
       image: ubuntu
       script: |
         #!/bin/sh
-        echo "Hello World"        
+        echo "Hello $(uname -a)!"        
